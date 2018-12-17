@@ -8,7 +8,8 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
-
+define('ADMIN_CSS_URL','/static/manager/css/');
+define('ADMIN_IMG_URL','/static/manager/img/');
 header("content-type:text/html:charset=utf-8");
 // [ 应用入口文件 ]
 
