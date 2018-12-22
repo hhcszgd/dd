@@ -7,6 +7,7 @@ namespace app\dd\controller;
  * Date: 2018/12/16
  * Time: 10:34
  */
+include "Test.php";
 class Playground{
     /// 访问 规则 http://ddshop.com/index.php?s=/dd/playground/play/game/ssss 或者 http://ddshop.com/index.php/dd/playground/play/game/ssss
     /// 输出 let's play ssss
@@ -46,5 +47,10 @@ class Playground{
         $para = $_POST["hello"];
         $returnback = array($para);
         echo  json_encode( $returnback);
+    }
+
+    public function getParameter(){
+        $arr = array("key1"=>"heool" ,"key2"=> "22dk");
+        echo  json_encode($arr );
     }
 }
